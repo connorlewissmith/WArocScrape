@@ -1,0 +1,18 @@
+Package: WArocScrape
+Title: Downloads ROC polygon files for Washington State
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Connor", 
+    family = "Lewis-Smith", 
+    role = c("aut", "cre"),
+    email = "connorlewissmith@gmail.com")
+Description: This package pulls the polygons for the Salmon Recovery Regions of Washington state, which are geographical areas designated by the state government for the purpose of coordinating and implementing recovery plans for salmon populations. There are six regions: North Puget Sound, South Puget Sound, Hood Canal, Strait of Juan de Fuca, Lower Columbia and Snake River. These regions are based on the distinct characteristics of each area, such as the species of salmon present, habitat conditions, and human activities that impact salmon populations. The goal of these regions is to protect and recover salmon populations through partnerships between government agencies, tribes, non-profits, and local communities. The package also pulls polygons for re designated areas for coordinating and implementing plans for the recovery of threatened and endangered species in Washington state. The goal of the Lead Entity program is to support locally-led efforts to recover species and their habitats. Each Lead Entity Region is made up of one or more counties and is governed by a local Lead Entity.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    sf
+Depends:
+  R (>= 3.0.0),
+
