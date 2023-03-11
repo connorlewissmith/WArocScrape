@@ -1,4 +1,4 @@
-# WArocScrape 
+# WArocScrape <img src="man/figures/logo.png" align="right" alt="" width="120" />
 
 ## WArocScrape: Tools for Accessing and Working with the WA RCO Management Areas
 
@@ -30,6 +30,7 @@ saves it to the working directory as an ESRI shapefile if the download_files arg
 ``` r
 lead_entities <- load_lead_entities()
 head(lead_entities)
+
 lead_entities_file <- load_lead_entities(download_files = TRUE)
 ```
 
@@ -41,5 +42,6 @@ The user can also choose to save the data as an ESRI Shapefile by setting the do
 ``` r
 salmon_recovery_regions <- load_salmon_recovery_regions()
 head(salmon_recovery_regions)
+
 salmon_recovery_regions <- load_salmon_recovery_regions(download_files = TRUE)
 ```
